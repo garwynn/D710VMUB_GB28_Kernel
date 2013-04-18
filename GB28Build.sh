@@ -15,11 +15,11 @@ export ARCH=arm
 export DEFCONFIG=garwynn
 export BASEDIR=`readlink -f ..`
 export KERNELDIR=`readlink -f .`
-export INITRAMFS_SOURCE=$BASEDIR/initramfs/E4GT_JB_ramdisk
+export INITRAMFS_SOURCE=$BASEDIR/initramfs/D710_jb_initramfs
 export INITRAMFS_TMP="/tmp/initramfs-e4gt"
 export JOBS=`grep 'processor' /proc/cpuinfo | wc -l`
 export VARIANT=SXTP_Agat_GB28_kernel
-export RELEASE_VER=SXTP_Agat_GB28-v0.3.0
+export RELEASE_VER=SXTP_Agat_GB28-v0.4.0
 export CROSS_COMPILE=~/Kernel/toolchain/prebuilt/arm-eabi-4.4.3/bin/arm-eabi-
 
 ## Command line options that allow overriding defaults, if desired.
